@@ -1,9 +1,8 @@
+import Footer from 'components/Footer'
+import Header from 'components/Header'
+import Layout from 'components/layout'
+import Main from 'components/Main'
 import React from 'react'
-import Layout from '../components/layout'
-
-import Header from '../components/Header'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
 
 class IndexPage extends React.Component {
   constructor(props) {

@@ -1,9 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import 'assets/scss/main.scss'
 import { StaticQuery, graphql } from 'gatsby'
-
-import '../assets/scss/main.scss'
+import PropTypes from 'prop-types'
+import React from 'react'
+import Helmet from 'react-helmet'
 
 const Layout = ({ children, location }) => {
 
@@ -41,8 +40,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Drew Wei' },
+              { name: 'keywords', content: 'tech, gadget, guides, coding' },
             ]}
           >
             <html lang="en" />
