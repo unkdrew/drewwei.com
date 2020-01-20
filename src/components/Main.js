@@ -8,10 +8,11 @@ class Main extends React.Component {
   render() {
     let close = (
       <div
+        role="button"
         className="close"
-        onClick={() => {
-          this.props.onCloseArticle()
-        }}
+        tabIndex={0}
+        onClick={() => {this.props.onCloseArticle()}}
+        onKeyDown={() => {this.props.onCloseArticle()}}
       ></div>
     )
 
@@ -60,7 +61,7 @@ class Main extends React.Component {
           </p>
           <p>
             My primary programming language is Java, and I have built web services using RPC and REST (some are
-            serverless), long-running workflows, so on and so forth. My main area of interests in on the backend side,
+            serverless), long-running workflows, so on and so forth. My main area of interests is on the backend side,
             but as serverless architecture is more and more popular, I am also trying to get my hands dirty with the
             front-end side of the world.
           </p>
@@ -83,8 +84,8 @@ class Main extends React.Component {
             working at Amazon Web Services as a software engineer in 2015.
           </p>
           <p>
-            I play my PS4 Pro and Nintendo Switch on a 135-inch projector screen in my home theater, with a 5.1
-            surround sound system and 4k smart projector.
+            At my leisure, I play my PS4 Pro and Nintendo Switch on a 135-inch projector screen in my home theater, with
+            a 5.1 surround sound system and a 4K smart projector.
           </p>
           {close}
         </article>

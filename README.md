@@ -1,6 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a55c8f7f-edb7-474b-a634-b3f1abf9ea56/deploy-status)](https://app.netlify.com/sites/dreezys-tech-hive/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5030219c-6ce7-43ee-a638-9431aa02e216/deploy-status)](https://app.netlify.com/sites/cranky-agnesi-607ed6/deploys)
 
-# New README
 ### 1. Environment Setup
 * Install [Homebrew](https://docs.brew.sh/Installation)
 * Install Node.js

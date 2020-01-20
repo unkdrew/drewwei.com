@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "author": "Drew Wei",
   "dependencies": {
-    "gatsby": "^2.18.18",
+    "gatsby": "^2.18.25",
     "gatsby-plugin-manifest": "^2.2.34",
-    "gatsby-plugin-offline": "^3.0.30",
+    "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.18",
     "gatsby-plugin-sass": "^2.1.26",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1"
@@ -27,10 +27,11 @@
   },
   "devDependencies": {
     "gatsby-plugin-root-import": "^2.0.5",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/unkdrew/techhive.drewwei.com"
+    "url": "https://github.com/unkdrew/drewwei.com"
   }
 }

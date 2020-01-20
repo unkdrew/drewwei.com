@@ -52,6 +52,10 @@
 			width: 100%;
 		}
 
+		&.nav {
+			border-radius: _size(button-nav);
+		}
+
 		&.special {
 			background-color: _palette(fg-bold);
 			color: _palette(bg) !important;
