@@ -18,10 +18,10 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><button className="nav" onClick={() => {props.onOpenArticle('intro')}}>Intro</button></li>
-                <li><button className="nav" onClick={() => {props.onOpenArticle('work')}}>Work</button></li>
-                <li><button className="nav" onClick={() => {props.onOpenArticle('about')}}>About</button></li>
-                <li><button className="nav" onClick={() => {props.onOpenArticle('contact')}}>Contact</button></li>
+                <li className="nav" role='presentation' onClick={() => {props.onOpenArticle('intro')}} onKeyDown={() => {props.onOpenArticle('intro')}}>Intro</li>
+                <li className="nav" role='presentation' onClick={() => {props.onOpenArticle('work')}} onKeyDown={() => {props.onOpenArticle('work')}}>Work</li>
+                <li className="nav" role='presentation' onClick={() => {props.onOpenArticle('about')}} onKeyDown={() => {props.onOpenArticle('about')}}>About</li>
+                <li className="nav" role='presentation' onClick={() => {props.onOpenArticle('contact')}} onKeyDown={() => {props.onOpenArticle('contact')}}>Contact</li>
             </ul>
         </nav>
     </header>
