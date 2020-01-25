@@ -11,11 +11,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'drewwei.com',
+        short_name: 'drewwei.com',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#78c4ff',
+        theme_color: '#78c4ff',
         display: 'minimal-ui',
         icon: 'src/images/icon.png'  // This path is relative to the root of the site.
       }
