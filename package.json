@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Drew Wei",
   "dependencies": {
-    "gatsby": "^2.18.25",
-    "gatsby-plugin-manifest": "^2.2.34",
+    "gatsby": "^2.19.5",
+    "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.18",
     "gatsby-plugin-sass": "^2.1.26",
