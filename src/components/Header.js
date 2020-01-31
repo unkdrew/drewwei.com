@@ -11,7 +11,8 @@ const Header = (props) => (
         <h1>Drew Wei</h1>
         <p>A software engineer @ Amazon Web Services.</p>
         <br/>
-        <button className="icon fa-bug">Visit Dreezy's Tech Hive</button>
+        <a href="https://techhive.drewwei.com/" className="button icon fa-bug">Visit Dreezy's Tech Hive</a>
+
       </div>
     </div>
     <nav>
