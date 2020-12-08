@@ -39,11 +39,14 @@ const Layout = ({ children, location }) => {
         <>
           <Helmet
             title={data.site.siteMetadata.title}
-            meta={[
-              { name: 'description', content: 'Drew Wei' },
-              { name: 'keywords', content: 'tech, gadget, guides, coding' },
-            ]}
+            meta={
+              [
+                { name: 'description', content: 'Drew Wei' },
+                { name: 'keywords', content: 'tech, gadget, guides, coding' },
+              ]
+            }
           >
+            <script data-ad-client="ca-pub-9760840662732376" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <html lang="en" />
           </Helmet>
           {content}
