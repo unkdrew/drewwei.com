@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5030219c-6ce7-43ee-a638-9431aa02e216/deploy-status)](https://app.netlify.com/sites/cranky-agnesi-607ed6/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5030219c-6ce7-43ee-a638-9431aa02e216/deploy-status)](https://app.netlify.com/sites/drewwei/deploys)
 
 ### 1. Environment Setup
 * Install [Homebrew](https://docs.brew.sh/Installation).
