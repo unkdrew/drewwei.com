@@ -7,12 +7,6 @@ module.exports = {
     description: "Drew Wei's personal website"
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-google-adsense',
-      options: {
-        publisherId: 'ca-pub-9760840662732376'
-      }
-    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-manifest',
