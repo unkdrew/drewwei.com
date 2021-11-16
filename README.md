@@ -5,8 +5,8 @@
 * Install Node.js.
   * Run command: `brew install node`
   * Verify version of the installed `node` and `npm`
-    * Run command: `node --version` (Version should be greater than or equal to `v13.5.0`.)
-    * Run command: `npm --version` (Version should be greater than or equal to `6.13.4`.)
+    * Run command: `node --version` (Version should be greater than or equal to `v16.13.0`.)
+    * Run command: `npm --version` (Version should be greater than or equal to `8.1.0`.)
 * Install Git.
   * If you use a Mac, you can skip this. Apple ships their own fork of `git`.
 * Install Gatsby CLI.
@@ -22,16 +22,22 @@
 
 ### 3. Local Development
 #### 3.1 Check package health
+* Upgrade `node` and `npm`.
+  * Run commands:
+    * `nvm install --lts`
+    * `npm install -g npm@latest`
 * Check if there are dependencies not declared in `package.json`.
   * This checks if there are dependencies that are available on your machine but not declared in this package's dependency closure, e.g. dependencies that were installed via `npm install` without specifying the `--save` flag.
   * Run command: `npm prune`
-* Check if there are upgradable dependencies.
-  * Run command: `npm outdated`
-  * To update all dependencies:
-    * Run command: `npm update --save/--save-dev`
-  * To update a certain dependency:
-    * Run command: `npm install <DEPENDENCY_NAME>@latest --save`
-    * e.g. `npm install gatsby@latest --save`
+* Check if there are upgradable global dependencies.
+  * Run command: `npm outdated -g --depth=0`
+  * To update all global dependencies:
+    * Run command: `npm update -g`
+* Check if there are upgradable project dependencies.
+  * Use `npm-check-updates`:
+    * `npm i -g npm-check-updates`
+    * `ncu -u`
+    * `npm install`
 
 #### 3.2 To run the website locally on your machine
 * `cd` into the root directory of the website project.
