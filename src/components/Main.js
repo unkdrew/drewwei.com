@@ -79,11 +79,11 @@ class Main extends React.Component {
           </span>
           <p>
             I graduated from Georgia Institute of Technology with a Master's degree in Computer Science, and started
-            working at Amazon Web Services as a software engineer in 2015.
+            working at Amazon Web Services as a software engineer in 2015. Now I am a senior software engineer at Apple.
           </p>
           <p>
-            At my leisure, I play my PS4 Pro and Nintendo Switch on a 135-inch projector screen in my home theater, with
-            a 5.1 surround sound system and a 4K smart projector.
+            At my leisure, I play my PS5 and Nintendo Switch on a 135-inch projector screen, with a 5.1 surround sound
+            system and a 4K smart projector.
           </p>
           {close}
         </article>
