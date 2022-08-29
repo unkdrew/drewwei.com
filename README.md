@@ -2,11 +2,16 @@
 
 ### 1. Environment Setup
 * Install [Homebrew](https://docs.brew.sh/Installation).
-* Install Node.js.
-  * Run command: `brew install node`
+* Install `nvm`
+  * Visit: https://github.com/nvm-sh/nvm
+* Install `node` and `npm`
+  * Run command: `nvm install --lts`
+  * Run command: `npm install -g npm@latest`
   * Verify version of the installed `node` and `npm`
     * Run command: `node --version` (Version should be greater than or equal to `v16.13.0`.)
     * Run command: `npm --version` (Version should be greater than or equal to `8.1.0`.)
+  * Specify the version of `node` to be used by Netlify.
+    * Update file `.node-version`.
 * Install Git.
   * If you use a Mac, you can skip this. Apple ships their own fork of `git`.
 * Install Gatsby CLI.
