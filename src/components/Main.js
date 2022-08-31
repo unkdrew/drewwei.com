@@ -55,10 +55,10 @@ class Main extends React.Component {
             <img src={pic_work} alt="" />
           </span>
           <p>
-            I am a software engineer at work, currently working at Amazon Web Services.
+            I am a software engineer at work, currently working at Apple, and previously at Amazon Web Services.
           </p>
           <p>
-            My primary programming language is Java, and I have built web services using RPC and REST (some are
+            My primary programming language is Java, and I have built numerous web services using RPC and REST (some are
             serverless), long-running workflows, so on and so forth. My main area of interests is on the backend side,
             but as serverless architecture is more and more popular, I am also trying to get my hands dirty with the
             front-end side of the world.
